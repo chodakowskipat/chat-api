@@ -1,0 +1,9 @@
+spring:
+  sql:
+    init:
+      data-locations:
+        classpath:perf-testing-data.sql
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
